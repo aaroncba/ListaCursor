@@ -131,7 +131,7 @@ public class ListaCursor<T> {
     
     public static <T> void IMPRIME_LISTA(ListaCursor<T> L) {
         System.out.printf("| %-20s | %-20s | %-25s | %n", "Indice de Arreglo", "Info Guardada", "Pos Lista");
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 1000; i++) {
             System.out.printf("| %-20d | %-20s | %-25d | %n", (i + 1), L.Datos[i], L.Indice[i]);
         }
 
