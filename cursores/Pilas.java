@@ -3,14 +3,7 @@ package dsa.cursores;
 public class Pilas<T> extends ListaCursor{
 
 	
-    public static void main(String[] args) {
-    	Pilas<String> a = new Pilas(String.class); 
-    	for(int i = 0; i <20; i++) {
-    		Pilas.METE("valor " + i, a);
-    	}
-    	Pilas.IMPRIME_LISTA(a);
-    	
-	}
+
 	
 	
 	public Pilas(Class clazz) {
